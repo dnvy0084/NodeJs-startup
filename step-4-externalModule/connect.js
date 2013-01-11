@@ -2,8 +2,6 @@ var connect = require("connect");
   
 var server = connect.createServer( function( req, res, next )
 {
-    //res.writeHead( 200, {'Content-Type': 'text/html'} );
-    //res.end( '<h1>hello connect module</h1>' );
     console.log( 'call 1' );
     next();
     
