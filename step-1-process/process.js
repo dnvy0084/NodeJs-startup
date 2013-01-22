@@ -46,7 +46,7 @@ console.log( output );
 //프로그램 종료.
 //process.exit();
 
-/** 중요 ** 예기치 않은 에러 발생시 프로세스가 다운됨. exceptio error에 대한 처리가 반드시 필요함 **/
+/** 중요 ** 예기치 않은 에러 발생시 프로세스가 다운됨. exception error에 대한 처리가 반드시 필요함 **/
 process.on( 'uncaughtException', function( message ){
     console.log( '\u001b[31m', 'uncaughtException: ' + message );
     console.log( '\u001b[0m' );
